@@ -13,19 +13,14 @@ This project is a cutting-edge application that leverages the power of Large Lan
 
 ## Setup Instructions
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/csye7125-su24-team17/llm.git
-
 cd llm
 ```
-### 2. Create and Activate Python Virtual Environment
+### 1. Create and Activate Python Virtual Environment
 ```bash
 conda create -n env_langchain1 python=3.10
 conda activate env_langchain1
 ```
-### 3. Install Required Packages
+### 2. Install Required Packages
 ```bash
 # Install PyTorch and related packages
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
@@ -45,7 +40,7 @@ pip install langchain_groq
 conda install jupyter
 
 ```
-### 4. Verify Installation
+### 3. Verify Installation
 To ensure all packages are installed correctly, run the following in a Jupyter Notebook:
 ```bash
 import torch
@@ -59,7 +54,7 @@ print("Sentence Transformers version:", sentence_transformers.__version__)
 print("LangChain version:", langchain.__version__)
 
 ```
-### 5. Running the Application
+### 4. Running the Application
 Start Jupyter Notebook:
 ```bash
 jupyter notebook
